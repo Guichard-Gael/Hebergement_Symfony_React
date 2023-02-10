@@ -95,7 +95,7 @@ Si vous n’avez pas créé votre BDD à la main depuis l’interface graphique 
 
 Puis, **pour tout le monde**: `php bin/console d:m:m`.
 
-On installe apache-pack : `php composer.phar symfony/apache-pack` (en cas d'erreur, vérifier que vous avez bien un dossier `public`)
+On installe apache-pack : `php composer.phar require symfony/apache-pack` (en cas d'erreur, vérifier que vous avez bien un dossier `public`)
 
 Pour ceux qui ont le dossier vide, vous pouvez renommer votre dossier `public` du projet Symfony comme le dossier vide et supprimer le dossier vide. Pour les autres, garder votre dossier public.
 
